@@ -1,0 +1,9 @@
+@import "/node_modules/bootstrap";
+@import "/node_modules/bootstrap-icons";
+
+.bg-red {
+    background-color: #dd052b;
+}
+.text-red {
+    color: #dd052b;
+}
