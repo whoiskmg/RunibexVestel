@@ -1,5 +1,6 @@
 import { Key } from "react";
 import { Link } from "react-router-dom";
+
 const Categories = ({ data }: any) => {
     return (
         <div className="container my-5">

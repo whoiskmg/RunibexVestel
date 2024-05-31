@@ -3,7 +3,7 @@ import { useQuery } from "@tanstack/react-query";
 import { Routes, Route } from "react-router-dom";
 
 import "./App.css";
-import Header from "./components/header/Header.component";
+
 import Navigation from "./components/navigation/Navigation.component";
 import Categories from "./components/categories/Categories.Page";
 
@@ -26,7 +26,6 @@ function App() {
     }
     return (
         <>
-            <Header />
             <Navigation data={data} />
             <Routes>
                 <Route

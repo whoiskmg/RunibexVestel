@@ -16,12 +16,12 @@ const Product = () => {
     if (error) {
         return "An error has occurred: " + error.message;
     }
-    const images = data.Result.ImageSetList[0].ImageList.filter(
-        (url: any) => url.Path.endsWith(".pdf") === false
-    ).map((url: any) => ({
+    const images = data.Result.ImageSetList[0].ImageList.map((url) => ({
         original: url.Path,
     }));
     const item = data.Result;
+
+    console.log(data);
     return (
         <div>
             <div className="container py-5">
